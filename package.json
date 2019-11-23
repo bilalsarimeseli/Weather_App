@@ -5,13 +5,14 @@
   "homepage": "https://bilalsarimeseli.github.io/Weather_App/.",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0",
     "weather-icons": "git+https://github.com/erikflowers/weather-icons.git"
   },
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
